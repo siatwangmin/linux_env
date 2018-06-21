@@ -1,0 +1,7 @@
+在linux下安装只需要运行命令即可，这样每次在开机的时候就会自动启动代理。
+sudo ./ss_install.sh
+
+在使用的过程中，如果在终端的程序需要代理，那么运行：
+proxychains [command]
+例如
+proxychains apt-get update
